@@ -183,7 +183,7 @@ export const Navbar: React.FC = () => {
               </button>
             )}
 
-            {/* Admin Section Access */}
+            {/* Admin Section Access }
             <button
               id="btn-nav-admin"
               onClick={() => handleNavClick('admin', '/admin')}
@@ -200,6 +200,7 @@ export const Navbar: React.FC = () => {
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
               )}
             </button>
+            {*/}
 
             {/* Primary CTA */}
             <button
