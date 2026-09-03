@@ -303,7 +303,7 @@ export const BookingCalendar: React.FC<BookingCalendarProps> = ({
 
           {/* Calendar Days Grid */}
           <div className="grid grid-cols-7 gap-1 sm:gap-1.5">
-            {calendarGrid.map((cell) => {
+            {calendarGrid.map((cell: any) => {
               if (cell.type === 'blank') {
                 return (
                   <div 

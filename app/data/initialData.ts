@@ -1,4 +1,4 @@
-import { Psychologist, Service, BlogPost, Testimonial, Patient, Appointment } from './types';
+import { Psychologist, Service, BlogPost, Testimonial, Patient, Appointment } from '@/app/types';
 
 export const CLINIC_INFO = {
   name: 'PsicoSalud',
